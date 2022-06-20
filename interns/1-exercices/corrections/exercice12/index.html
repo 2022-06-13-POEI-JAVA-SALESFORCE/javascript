@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <script> 
+        let nb = 0
+        do {
+            nb = prompt('Saisissez un nombre compris entre 1 et 3')
+            nb = parseInt(nb)
+        } while (nb < 1 || nb > 3)
+        console.log(`Le nombre ${nb} convient à la condition compris entre 1 et 3`)
+    </script>
+</body>
+</html>
