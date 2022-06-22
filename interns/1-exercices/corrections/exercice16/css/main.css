@@ -1,24 +1,33 @@
 main {
     width: 75%;
     margin: 10px auto;
-    background-color: cadetblue;
+    background-color: #58b4c7;
     padding: 10px;
 }
 h1 {
     text-align: center;
-    color: #ffa500;
+    color: #f35a51;
     margin: 10px;
 }
 form {
     width: 100%;
     margin: 5px auto;
 }
-label {
-    display: block;
-}
 
+form>div {
+    width: 50%;
+    margin: 5px auto;
+    text-align: left;
+    height: 30px;
+}
+form>div>div {
+    text-align: right;
+    position: relative;
+    top: -20px;
+}
 input[type="button"] {
-    margin-top: 10px;
-    background-color: #e1e110;
-    color: #ffa500;
+    background-color: #f9d778;
+    color: #f35a51;
+    border: 1px solid #f35a51;
+    padding: 4px;
 }
