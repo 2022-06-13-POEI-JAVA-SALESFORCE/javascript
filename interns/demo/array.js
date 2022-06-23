@@ -19,7 +19,7 @@ for (let i = 0; i < tabSize; i++) {
 // DECLARER UN TABLEAU NON VIDE
 
 let j = 0
-const tab = [100, 105, 104, 2000, 5857, 5554] // au rang 0 = 105 et au rand 1 => 15 etc..
+const tab = ['glodie', 'nabil', 'nathalie', 'laura', 'ludovic', 'syrine'] // au rang 0 glodie ,rang 1 Nabil etc..
 
 // PARCOURIR UN TABLEAU AVEC LA BOUCLE WHILE
 while (j < tab.length) {
