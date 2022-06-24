@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Périmètre du cercle</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <main>
+        <h1>Calcul des dimensions du cercle</h1>
+        <form>
+            <div>
+                <label for="radius">Rayon:</label>
+                <div>
+                    <!-- attribut utofocus pour mettre le curseur directement sur le champs -->
+                    <input type="number" name="radius" id="radius" min="1" autofocus>
+                </div>
+            </div>
+            <div>
+                <label for="diameter">Diamètre: </label>
+                <div>
+                    <!-- attribut disabled pour désactiver le champs cad empêcher la saisie -->
+                    <input type="number" name="diameter" id="diameter" disabled>
+                </div>
+            </div>
+            <div>
+                <label for="circumference">circonférence: </label>
+                <div>
+                    <!-- autre notation pour l'attribut disabled -->
+                    <input type="number" name="circumference" id="circumference" disabled="disabled">
+                </div>
+            </div>
+            <div>
+                <label for="area">Aire: </label> 
+                <div>
+                    <input type="number" name="area" id="area" disabled="disabled">
+                </div>
+            </div>
+            <div>
+                <input type="button" value="Calculer">
+            </div>
+        </form>
+    </main>
+    <!-- type="module" parce que j'ai scindé mon js en plusieurs morceaux avec des exports et des imports -->
+    <script src="./js/main.js" type="module"></script>
+</body>
+
+</html>
