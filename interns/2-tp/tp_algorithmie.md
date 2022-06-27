@@ -33,16 +33,36 @@ Pour afficher une information à l'utilisateur utiliser ***alert('votre message'
 
 ### Ressources
 
-- (Documentation sessionStorage)['https://www.w3schools.com/jsref/prop_win_sessionstorage.asp']
-- (Documentation JSON Parse)['https://www.w3schools.com/js/js_json_parse.asp']
-- (Documentation JSON Stringify)['https://www.w3schools.com/js/js_json_stringify.asp']
-- (Documentation document.createElement)['https://www.w3schools.com/js/js_htmldom_nodes.asp']
-- (Documentation document.append)['https://developer.mozilla.org/fr/docs/Web/API/Element/append']
-- (Documentation document.prepend)['https://developer.mozilla.org/fr/docs/Web/API/Element/prepend#ajouter_du_texte']
+- [Documentation sessionStorage]('https://www.w3schools.com/jsref/prop_win_sessionstorage.asp')
+- [Documentation JSON Parse]('https://www.w3schools.com/js/js_json_parse.asp')
+- [Documentation JSON Stringify]('https://www.w3schools.com/js/js_json_stringify.asp')
+- [Documentation document.createElement]('https://www.w3schools.com/js/js_htmldom_nodes.asp')
+- [Documentation document.append]('https://developer.mozilla.org/fr/docs/Web/API/Element/append')
+- [Documentation document.prepend]('https://developer.mozilla.org/fr/docs/Web/API/Element/prepend#ajouter_du_texte')
 
 ### Maquettes
 
-!(home)[img/bank/home.png]
-!(open)[img/bank/open.png]
-!(withdraw)[img/bank/withdraw.png]
-!(agios)[img/bank/agios.png]
+#### Accueil
+
+![home](img/bank/home.png)
+
+#### Ouverture de compte
+
+![open](img/bank/open/1.png)
+![open](img/bank/open/2.png)
+![open](img/bank/open/3.png)
+![open](img/bank/open/4.png)
+![open](img/bank/open/5.png)
+![open](img/bank/open/6.png)
+
+#### Retrait
+
+![withdraw](img/bank/withdraw/1.png)
+![withdraw](img/bank/withdraw/2.png)
+![withdraw](img/bank/withdraw/3.png)
+![withdraw](img/bank/withdraw/4.png)
+![withdraw](img/bank/withdraw/5.png)
+
+#### Agios
+
+![agios](img/bank/agios/1.png)
